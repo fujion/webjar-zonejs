@@ -9,7 +9,7 @@
 
 	<name>Zone.js</name>
 	<artifactId>webjar-zonejs</artifactId>
-	<version>0.8.26</version>
+	<version>0.8.26-1-SNAPSHOT</version>
 	<description>Zone.js Library.</description>
 	
 	<properties>
@@ -63,8 +63,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
-  <scm>
-    <tag>0.8.26</tag>
-  </scm>
 </project>
