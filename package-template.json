@@ -1,0 +1,8 @@
+{
+  "name": "webjar-zonejs",
+  "version": "${version.unrevise}",
+  "description": "Zone.js library",
+  "dependencies": {
+    "zone.js": "${version.unrevise}"
+    }
+}
