@@ -11,23 +11,23 @@
 	<artifactId>webjar-zonejs</artifactId>
 	<version>0.8.26-1-SNAPSHOT</version>
 	<description>Zone.js Library.</description>
-	
+
 	<properties>
 		<systemjs>
 			{
 				paths: {
 					"zone.js": "."
 				},
-				
+
 				packages: {
 					"zone.js": {
 						"main": "dist/zone.js"
 					}
 				}
-			}			
+			}
 		</systemjs>
 	</properties>
-	
+
 	<build>
 		<plugins>
 			<plugin>
@@ -53,9 +53,9 @@
 						<id>postcompile</id>
 						<configuration>
 							<target>
-								<move todir="${webjar.target}">
+								<copy todir="${webjar.target}">
 									<fileset dir="${src.rootdir}/node_modules/zone.js" includes="dist/*.*" />
-								</move>
+								</copy>
 							</target>
 						</configuration>
 					</execution>

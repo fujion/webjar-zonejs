@@ -1,7 +1,7 @@
 {
-  "name": "webjar-zonejs",
+  "name": "${project.artifactId}",
   "version": "${version.unrevise}",
-  "description": "Zone.js library",
+  "description": "${project.description}",
   "dependencies": {
     "zone.js": "${version.unrevise}"
     }
