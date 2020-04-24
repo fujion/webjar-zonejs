@@ -12,22 +12,6 @@
 	<version>0.9.1-SNAPSHOT</version>
 	<description>Zone.js Library.</description>
 
-	<properties>
-		<systemjs>
-			{
-				paths: {
-					"zone.js": "."
-				},
-
-				packages: {
-					"zone.js": {
-						"main": "dist/zone.js"
-					}
-				}
-			}
-		</systemjs>
-	</properties>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -36,9 +20,6 @@
 				<executions>
 					<execution>
 						<id>npm-install</id>
-						<configuration>
-							<skip>false</skip>
-						</configuration>
 					</execution>
 				</executions>
 			</plugin>
