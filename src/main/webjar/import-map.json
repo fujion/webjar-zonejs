@@ -1,5 +1,11 @@
 {
-  "imports": {
-    "zone.js": "dist/zone.js"
+  "paths": {
+    "zone.js": "."
+  },
+
+  "packages": {
+    "zone.js": {
+      "main": "dist/zone.js"
+    }
   }
 }

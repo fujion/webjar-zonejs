@@ -9,7 +9,7 @@
 
 	<name>Zone.js</name>
 	<artifactId>webjar-zonejs</artifactId>
-	<version>0.9.1-SNAPSHOT</version>
+	<version>0.10.3-SNAPSHOT</version>
 	<description>Zone.js Library.</description>
 
 	<build>
