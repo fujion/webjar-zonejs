@@ -1,11 +1,5 @@
 {
-  "paths": {
-    "zone.js": "."
-  },
-
-  "packages": {
-    "zone.js": {
-      "main": "dist/zone.js"
-    }
+  "imports": {
+    "zone.js": "bundles/zone.umd.js"
   }
 }
