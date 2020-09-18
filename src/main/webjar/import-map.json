@@ -5,7 +5,7 @@
 
   "packages": {
     "zone.js": {
-      "main": "dist/zone.js"
+      "main": "bundles/zone.umd.js"
     }
   }
 }
