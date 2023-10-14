@@ -42,23 +42,11 @@
 						<id>precompile</id>
 						<configuration>
 							<target>
-								<copy tofile="${src.rootdir}/package.json" file="${basedir}/package-template.json">
-							        <filterchain>
-							            <expandproperties />
-							        </filterchain>
-								</copy>
-							</target>
-						</configuration>
-					</execution>
-					<execution>
-						<id>postcompile</id>
-						<configuration>
-							<target>
-								<copy todir="${webjar.target}">
-									<fileset dir="${src.rootdir}/node_modules/zone.js" includes="*.md,LICENSE" />
-								</copy>
-								<copy todir="${webjar.target}/dist">
-									<fileset dir="${src.rootdir}/node_modules/zone.js/bundles/" />
+								<copy todir="${src.rootdir}">
+									<fileset dir="${basedir}/staging"/>
+									<filterchain>
+										<expandproperties/>
+									</filterchain>
 								</copy>
 							</target>
 						</configuration>
